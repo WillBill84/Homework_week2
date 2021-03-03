@@ -215,6 +215,7 @@ footer {
     display: block;
     border-radius: 3px;
     padding: 10px 0px;
+    margin:10px 0;
     text-align: center;
     font-size: 15px;
     width: 120px;
@@ -396,9 +397,13 @@ footer {
     margin-left: 20px;
 }
 
+.my-photo {
+    width:120px;
+    height:120px;
+}
+    
 #hero-title {
-    font-size: 4rem;
-
+    font-size: 3.5rem;
 }
 
 figcaption {
@@ -409,6 +414,7 @@ figcaption {
 
 .text-left {
     margin: 50px 20px;
+    font-size: 2rem;
 }
     
 .portfolio_button {
@@ -439,7 +445,7 @@ section {
 }
 }
 
- /* Portrait phone styles here */
+ /* Landscape phone styles here */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
