@@ -210,6 +210,8 @@ footer {
 }
 
 .portfolio_button {
+    background: var(--bright-blue);
+    color: var(--white);
     display: block;
     border-radius: 3px;
     padding: 10px 0px;
@@ -218,10 +220,6 @@ footer {
     width: 120px;
     height: auto;
     transition: var(--transition);
-}
-
-.portfolio_button a {
-    color: var(--white);
 }
 
 .portfolio_button:hover {
