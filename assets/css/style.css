@@ -433,6 +433,7 @@ section {
 .projects-column figcaption {
     width: var(--max_percent);
     height: var(--max_percent);
+    padding:5%;
 
 }
 
