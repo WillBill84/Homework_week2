@@ -276,7 +276,7 @@ footer {
     max-width: 500px;
     width: var(--max_percent);
     background: var(--bright-blue);
-    padding: 20px;
+    padding: 40px;
     z-index: 2;
     display: flex;
     bottom: 0;
