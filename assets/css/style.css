@@ -111,23 +111,6 @@ header svg:hover {
     transition: var(--transition);
 }
 
-.headscroll {
-    background: var(--white);
-    box-shadow: 0px 0px 10px #ccc;
-    opacity: 0.95;
-    transition: var(--transition);
-}
-
-.headscroll a {
-    color: #333;
-    transition: var(--transition);
-}
-
-.headscroll a:hover {
-    color: var(--bright-blue);
-    transition: var(--transition);
-}
-
 nav {
     color: var(--white);
     flex: 1;
@@ -173,6 +156,24 @@ footer {
 
 /* Class Selectors */
 
+
+.headscroll {
+    background: var(--white);
+    box-shadow: 0px 0px 10px #ccc;
+    opacity: 0.95;
+    transition: var(--transition);
+}
+
+.headscroll a {
+    color: #333;
+    transition: var(--transition);
+}
+
+.headscroll a:hover {
+    color: var(--bright-blue);
+    transition: var(--transition);
+}
+
 .logo {
     flex: 0;
     flex-basis: 50px;
@@ -210,8 +211,6 @@ footer {
 
 .portfolio_button {
     display: block;
-    background: var(--bright-blue);
-    color: var(--white);
     border-radius: 3px;
     padding: 10px 0px;
     text-align: center;
@@ -219,6 +218,10 @@ footer {
     width: 120px;
     height: auto;
     transition: var(--transition);
+}
+
+.portfolio_button a {
+    color: var(--white);
 }
 
 .portfolio_button:hover {
