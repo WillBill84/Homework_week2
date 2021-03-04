@@ -38,8 +38,8 @@ My website has a fixed header that holds the navigation which links to each sect
 There is a recent photo, my name and a short description. I decided to add a portfolio button to guide the user to the portfolio section to highlight my recent work. 
 
 There is an about section that gives a brief description about me and my background. 
-The portfolio section has a few recent examples of my work. Each thumbnail has a hover state that holds the Title and description of each project and link to the live site when clicked. 
-The contact section at the bottom of the page holds a form and allows users to send a message and get in touch with me. 
+The portfolio section has a few recent examples of my work. Each thumbnail has a hover state, a Title, a description of each project and link to the live site when clicked. 
+The contact section at the bottom of the page holds a form for users to send a message and get in touch with me. 
 
 The site is responsive and works across all screen sizes, on phones the portfolio images and contact section stack and go full width. 
 ```
